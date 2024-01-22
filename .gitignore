@@ -42,3 +42,4 @@ docs/public/static/blog/feed/*
 .github/styles/Google
 .github/styles/write-good
 .nx/cache
+config.bat
