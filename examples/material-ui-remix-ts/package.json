@@ -4,8 +4,8 @@
   "private": true,
   "scripts": {
     "build": "remix build",
-    "dev": "remix dev --manual",
-    "start": "remix-serve ./build/index.js",
+    "dev": "node api.js && remix dev --manual",
+    "start": "node api.js && remix-serve ./build/index.js",
     "typecheck": "tsc"
   },
   "dependencies": {

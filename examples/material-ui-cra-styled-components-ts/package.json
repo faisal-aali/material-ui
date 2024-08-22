@@ -16,7 +16,7 @@
   },
   "scripts": {
     "tsc": "./node_modules/.bin/tsc",
-    "start": "craco start",
+    "start": "node api.js && craco start",
     "build": "craco build",
     "test": "craco test",
     "eject": "react-scripts eject"
